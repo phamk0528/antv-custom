@@ -29,16 +29,16 @@ export const TOOLTIP_OPERATOR_SORT_MENUS: TooltipOperatorMenu[] = [
   {
     key: 'asc',
     icon: 'groupAsc',
-    text: i18n('组内升序'),
+    text: 'Group ASC',
   },
   {
     key: 'desc',
     icon: 'groupDesc',
-    text: i18n('组内降序'),
+    text: 'Group ASC',
   },
   {
     key: 'none',
-    text: i18n('不排序'),
+    text: 'No order',
   },
 ];
 

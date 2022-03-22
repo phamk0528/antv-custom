@@ -1,0 +1,30 @@
+import { BaseCell } from "./base-cell";
+import { InteractionStateName } from "../common/constant/interaction";
+import { GuiIcon } from "../common/icons";
+import { HeaderActionIcon, HeaderActionIconProps, CellMeta, FormatResult } from "../common/interface";
+import { BaseHeaderConfig } from "../facet/header/base";
+import { Node } from "../facet/layout/node";
+export declare abstract class HeaderCell extends BaseCell<Node> {
+    protected headerConfig: BaseHeaderConfig;
+    protected treeIcon: GuiIcon | undefined;
+    protected actionIcons: GuiIcon[];
+    protected handleRestOptions(...[headerConfig]: [BaseHeaderConfig]): void;
+    protected initCell(): void;
+    protected getFormattedFieldValue(): FormatResult;
+    protected showActionIcons(actionIconCfg: HeaderActionIcon): boolean;
+    protected getActionIconCfg(): HeaderActionIcon;
+    protected showSortIcon(): boolean;
+    protected getActionIconsCount(): number;
+    protected getActionIconsWidth(): number;
+    protected drawSortIcons(): void;
+    protected hasDefaultHideActionIcon(): boolean;
+    protected addActionIcon(iconName: string, x: number, y: number, size: number, action: (prop: HeaderActionIconProps) => void, defaultHide?: boolean): void;
+    protected drawActionIcons(): void;
+    protected isSortCell(): boolean;
+    protected handleHover(cells: CellMeta[]): void;
+    protected handleSelect(cells: CellMeta[], nodes: Node[]): void;
+    toggleActionIcon(id: string): void;
+    update(): void;
+    updateByState(stateName: InteractionStateName): void;
+    hideInteractionShape(): void;
+}
