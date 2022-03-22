@@ -15,7 +15,7 @@ export const TOOLTIP_POSITION_OFFSET: TooltipPosition = {
 
 export const TOOLTIP_OPERATOR_HIDDEN_COLUMNS_MENU: TooltipOperatorMenu = {
   key: 'hiddenColumns',
-  text: i18n('隐藏'),
+  text: 'Hidden Columns',
   icon: 'EyeOutlined',
 };
 
@@ -46,15 +46,15 @@ export const TOOLTIP_OPERATOR_TABLE_SORT_MENUS: TooltipOperatorMenu[] = [
   {
     key: 'asc',
     icon: 'groupAsc',
-    text: i18n('升序'),
+    text: 'Group ASC',
   },
   {
     key: 'desc',
     icon: 'groupDesc',
-    text: i18n('降序'),
+    text: 'Group Desc',
   },
   {
     key: 'none',
-    text: i18n('不排序'),
+    text: 'No order',
   },
 ];
