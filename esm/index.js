@@ -18558,10 +18558,10 @@ var ZH_CN = {
     趋势: 'Trend',
     '已选 {} 项': 'selected {} item',
     所选项: 'selected items',
-    组内升序: 'Group ASC',
-    组内降序: 'Group DESC',
-    升序: 'ASC',
-    降序: 'DESC',
+    组内升序: 'Ascending',
+    组内降序: 'Descending',
+    升序: 'Ascending',
+    降序: 'Descending',
     不排序: 'No order',
     选择下钻维度: 'Select drill down dimension',
     恢复默认: 'Restore default',
@@ -18605,10 +18605,10 @@ var EN_US = {
     趋势: 'Trend',
     '已选 {} 项': 'selected {} item',
     所选项: 'selected items',
-    组内升序: 'Group ASC',
-    组内降序: 'Group DESC',
-    升序: 'ASC',
-    降序: 'DESC',
+    组内升序: 'Ascending',
+    组内降序: 'Descending',
+    升序: 'Ascending',
+    降序: 'Descending',
     不排序: 'No order',
     选择下钻维度: 'Select drill down dimension',
     恢复默认: 'Restore default',
@@ -19073,32 +19073,24 @@ var TOOLTIP_OPERATOR_SORT_MENUS = [
     {
         key: 'asc',
         icon: 'groupAsc',
-        text: 'Group ASC',
+        text: 'Ascending',
     },
     {
         key: 'desc',
         icon: 'groupDesc',
-        text: 'Group ASC',
-    },
-    {
-        key: 'none',
-        text: 'No order',
+        text: 'Descending',
     },
 ];
 var TOOLTIP_OPERATOR_TABLE_SORT_MENUS = [
     {
         key: 'asc',
         icon: 'groupAsc',
-        text: 'Group ASC',
+        text: 'Ascending',
     },
     {
         key: 'desc',
         icon: 'groupDesc',
-        text: 'Group Desc',
-    },
-    {
-        key: 'none',
-        text: 'No order',
+        text: 'Descending',
     },
 ];
 

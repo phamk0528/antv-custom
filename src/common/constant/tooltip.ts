@@ -29,16 +29,12 @@ export const TOOLTIP_OPERATOR_SORT_MENUS: TooltipOperatorMenu[] = [
   {
     key: 'asc',
     icon: 'groupAsc',
-    text: 'Group ASC',
+    text: 'Ascending',
   },
   {
     key: 'desc',
     icon: 'groupDesc',
-    text: 'Group ASC',
-  },
-  {
-    key: 'none',
-    text: 'No order',
+    text: 'Descending',
   },
 ];
 
@@ -46,15 +42,11 @@ export const TOOLTIP_OPERATOR_TABLE_SORT_MENUS: TooltipOperatorMenu[] = [
   {
     key: 'asc',
     icon: 'groupAsc',
-    text: 'Group ASC',
+    text: 'Ascending',
   },
   {
     key: 'desc',
     icon: 'groupDesc',
-    text: 'Group Desc',
-  },
-  {
-    key: 'none',
-    text: 'No order',
+    text: 'Descending',
   },
 ];
